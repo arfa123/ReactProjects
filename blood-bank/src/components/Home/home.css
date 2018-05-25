@@ -1,0 +1,241 @@
+<<<<<<< HEAD
+.dashboard{
+    background-color: #4CAF50;
+}
+.heading{
+    margin: 0;
+    float: left;
+}
+.heading h2{
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+}
+.user{
+    float: right;
+    margin: 5px 10px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: #ffffff;
+}
+.user h4{
+    margin: 0;
+    padding: 10px;
+}
+.logout{
+    border: 1px solid blue;
+    background-color: blue;
+    right: 10px;
+    height: 30px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    color: #ffffff;
+}
+.logout p{
+    margin: 0;
+    padding: 10px 5px;
+    font-weight: bolder;
+}
+.user:hover{
+    background-color: #ffffff;
+    border: 2px solid blue;
+    color: #000000;
+}
+.user:hover .logout{
+    display: block;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.donor-form{
+    text-align: center;
+}
+.donor-form button{
+    border: 2px solid #4CAF50;
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.3em;
+  width: 20%;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.donor-form button:hover{
+    border: 2px solid #4CAF50;
+  color: #4CAF50;
+  background-color: #ffffff;
+}
+.donor-form form{
+  width: 50%;
+  margin: 10px auto 0 auto;
+}
+.donor-form input,select{
+  border: none;
+  border-bottom: 2px solid red;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+/*.donors-list table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.donors-list th{
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+.donors-list td{
+    padding: 10px;
+    border: 1px solid #000000;
+}*/
+.boxes{
+    list-style-type: none;
+}
+.donor{
+    border: 4px solid #000000;
+    display: inline-block;
+    margin: 10px;
+    width: 290px;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+.donor h3,h4,h5,h6,address{
+    text-align: center;
+}
+.donor:hover{
+    background-color: #ffffff;
+    color: #4CAF50;
+}
+=======
+.dashboard{
+    background-color: #4CAF50;
+}
+.heading{
+    margin: 0;
+    float: left;
+}
+.heading h2{
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+}
+.user{
+    float: right;
+    margin: 5px 10px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: #ffffff;
+}
+.user h4{
+    margin: 0;
+    padding: 10px;
+}
+.logout{
+    border: 1px solid blue;
+    background-color: blue;
+    margin-right: 10px;
+    height: 30px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    color: #ffffff;
+}
+.logout p{
+    margin: 0;
+    padding: 10px 5px;
+    font-weight: bolder;
+}
+.user:hover{
+    background-color: #ffffff;
+    border: 2px solid blue;
+    color: #000000;
+}
+.user:hover .logout{
+    display: block;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.donor-form{
+    text-align: center;
+}
+.donor-form button{
+    border: 2px solid #4CAF50;
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.3em;
+  width: 20%;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.donor-form button:hover{
+    border: 2px solid #4CAF50;
+  color: #4CAF50;
+  background-color: #ffffff;
+}
+.donor-form form{
+  width: 50%;
+  margin: 10px auto 0 auto;
+}
+.donor-form input,select{
+  border: none;
+  border-bottom: 2px solid red;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+/*.donors-list table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.donors-list th{
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+.donors-list td{
+    padding: 10px;
+    border: 1px solid #000000;
+}*/
+.boxes{
+    list-style-type: none;
+}
+.donor{
+    border: 4px solid #000000;
+    display: inline-block;
+    margin: 10px;
+    width: 290px;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+.donor h3,h4,h5,h6,address{
+    text-align: center;
+}
+.donor:hover{
+    background-color: #ffffff;
+    color: #4CAF50;
+}
+>>>>>>> 30517cd8741ba6209f92cd5b3a3f6ad9ab3463c2
